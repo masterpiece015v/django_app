@@ -22,6 +22,6 @@ import getage.views as getage
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/' , include('hello.urls') ),
-    path('myname/' , include('myname.urls') ),
-    path('getage/' , include('getage.urls')),
+    #path('myname/' , include('myname.urls') ),
+    #path('getage/' , include('getage.urls')),
 ]
